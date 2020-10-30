@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('//basehold.it/26');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("//basehold.it/24");
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-/* stylelint-disable*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-disable */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
 /* Begin site styles below */
@@ -16,19 +16,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 /* Base Styles */
 html {
-  font-family: 'Piazzolla', 'Hoefler Text', Georgia, 'Times New Roman', Times, Roman, serif;
+  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
   padding: 25px 12.5px 25px 12.5px; /*TRBL*/
   background: #222;
   color: #EEE;
 }
-
+/*body {
+  margin: 1em; derive from line height
+  padding: 1em;
+  background-color: #A9A9A9; color: white;
+}*/
 h1 {
   font-size: 1.777778em; /* Two steps up modular scale: 32px / 18px = 1.777778em */
   line-height: 1.625em; /* 52px (twice the baseline) / 32px (modular scale) = 1.625em */
 }
-
 h2 {
   padding-top: 26px;
 }
@@ -37,7 +40,8 @@ figcaption {
   font-size: 0.5625em; /* Two steps down the modular scale: 10.125px / 18px = 0.5625em */
 }
 
-p + p {
+p {
+  color:Red;
   text-indent: 26px;
   padding-bottom: 26px;
 }
@@ -50,41 +54,9 @@ ul {
 
 li {
   padding-bottom: 12.5px;
+  color:Red;
 }
-
-ul ul,
-ul ul li {
-  padding-bottom: 0;
-}
-
-/* Responsive Images */
 img {
   display: block;
-  max-width: 100%;
-  border: 1px solid #EEE;
-}
-
-/* State Styles */
-@media screen and (min-width: 490px) {
-  html {
-  padding: 25px 10% 25px 10%;
-  }
-  h1 {
-    text-align: left;
-  }
-}
-
-@media screen and (min-width: 620px) {
-  html {
-    padding: 100px 25% 25px 25%;
-  }
-  h1 {
-    padding-bottom: 52px;
-  }
-}
-
-@media screen and (min-width: 830px) {
-  html {
-    font-size: 1.25em; /* 20px / 16px = 1.25em */
-  }
+  max-width: 30%;
 }
