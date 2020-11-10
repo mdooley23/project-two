@@ -35,10 +35,11 @@ h2 {
 
 figcaption {
   font-size: 0.5625em; /* Two steps down the modular scale: 10.125px / 18px = 0.5625em */
+  color:yellow;
 }
 
 p {
-  color:Red;
+  color:green;
   text-indent: 26px;
   padding-bottom: 26px;
 }
@@ -51,9 +52,9 @@ ul {
 
 li {
   padding-bottom: 12.5px;
-  color:Red;
+  color:purple;
 }
 img {
   display: block;
-  max-width: 30%;
+  max-width: 100%;
 }
