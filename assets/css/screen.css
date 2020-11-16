@@ -13,7 +13,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 /* Base Styles */
 html {
-  font-family: "Roboto", sans-serif
+  font-family: "Roboto", sans-serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
   padding: 25px 12.5px 25px 12.5px; /*TRBL*/
@@ -28,18 +28,24 @@ html {
 h1 {
   font-size: 1.777778em; /* Two steps up modular scale: 32px / 18px = 1.777778em */
   line-height: 1.625em; /* 52px (twice the baseline) / 32px (modular scale) = 1.625em */
+  color:grey;
 }
 h2 {
   padding-top: 26px;
+  color:grey;
+}
+h3 {
+  padding-top: 26px;
+  color:grey;
 }
 
 figcaption {
   font-size: 0.5625em; /* Two steps down the modular scale: 10.125px / 18px = 0.5625em */
-  color:yellow;
+  color:white;
 }
 
 p {
-  color:green;
+  color:white;
   text-indent: 26px;
   padding-bottom: 26px;
 }
@@ -52,9 +58,9 @@ ul {
 
 li {
   padding-bottom: 12.5px;
-  color:purple;
+  color:white;
 }
 img {
   display: block;
-  max-width: 100%;
+  max-width: 75%;
 }
