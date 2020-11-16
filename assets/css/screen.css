@@ -17,7 +17,7 @@ html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
   padding: 1.5625em 0.9615384615384616em 1.5625em 0.9615384615384616em; /*TRBL*/
-  background-image: linear-gradient(to bottom right, orange, red, maroon);
+  background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
   color: #EEE;
 }
 /*body {
@@ -32,11 +32,11 @@ h1 {
 }
 h2 {
   padding-top: 1em;
-  color:grey;
+  color:white;
 }
 h3 {
   padding-top: 1em;
-  color:grey;
+  color:white;
 }
 
 figcaption {
