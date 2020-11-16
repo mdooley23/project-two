@@ -17,7 +17,7 @@ html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
   padding: 25px 12.5px 25px 12.5px; /*TRBL*/
-  background: #222;
+  background-image: linear-gradient(to bottom right, orange, red, red);
   color: #EEE;
 }
 /*body {
@@ -28,7 +28,7 @@ html {
 h1 {
   font-size: 1.777778em; /* Two steps up modular scale: 32px / 18px = 1.777778em */
   line-height: 1.625em; /* 52px (twice the baseline) / 32px (modular scale) = 1.625em */
-  color:grey;
+  color:white;
 }
 h2 {
   padding-top: 26px;
