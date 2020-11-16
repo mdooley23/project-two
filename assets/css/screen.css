@@ -16,7 +16,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
-  padding: 25px 12.5px 25px 12.5px; /*TRBL*/
+  padding: 1.5625em 0.9615384615384616em 1.5625em 0.9615384615384616em; /*TRBL*/
   background-image: linear-gradient(to bottom right, orange, red, maroon);
   color: #EEE;
 }
@@ -31,11 +31,11 @@ h1 {
   color:white;
 }
 h2 {
-  padding-top: 26px;
+  padding-top: 1em;
   color:grey;
 }
 h3 {
-  padding-top: 26px;
+  padding-top: 1em;
   color:grey;
 }
 
@@ -46,18 +46,18 @@ figcaption {
 
 p {
   color:white;
-  text-indent: 26px;
-  padding-bottom: 26px;
+  text-indent: 1em;
+  padding-bottom: 1em;
 }
 
 ul {
-  margin-left: 12.5px;
-  padding-bottom: 12.5px;
+  margin-left: 0.9615384615384616em;
+  padding-bottom: 0.9615384615384616em;
   list-style-type: disc;
 }
 
 li {
-  padding-bottom: 12.5px;
+  padding-bottom: 0.9615384615384616em;
   color:white;
 }
 img {
