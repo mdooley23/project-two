@@ -19,6 +19,8 @@ html {
   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
   padding: 1.5625em 0.9615384615384616em 1.5625em 0.9615384615384616em; /*TRBL*/
   background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #FFFFFF;
 }
 
@@ -35,6 +37,17 @@ h1 {
   padding-top: 0.138em;
   padding-bottom: 0.138em;
   color: #FFFFFF;
+  text-align: center;
+}
+
+#h1-l {
+  font-weight: 600;
+  font-size: 2.441em; /* 43.945px/18px = 2.441em */
+  line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
+  padding-top: 0.138em;
+  padding-bottom: 0.138em;
+  color: #FFFFFF;
+  text-align: left;
 }
 
 h2 {
@@ -43,6 +56,7 @@ h2 {
   line-height: 1.778em;
   padding-top: 0.138em;
   color:#FFFFFF;
+  text-align: center;
 }
 h3 {
   padding-top: 1em;
@@ -72,6 +86,11 @@ li {
   padding-bottom: 0.9615384615384616em;
   color: #FFFFFF;
 }
+#li-t {
+  padding-bottom: 0.9615384615384616em;
+  color: #FFFFFF;
+  display:inline;
+}
 
 img {
   display: block;
@@ -88,14 +107,38 @@ details {
 }
 
 #navbar {
-display: block;
-  grid-row: 9;
-  grid-column: 1 / 2;
-  text-align: center;
-  display: horizontal;
-  flex-direction: horizontal;
+  grid-row: 2 / 3;
+  grid-column: 2 / 2;
 }
 
+#home-nav-container{
+  grid-row:2/3;
+  grid-column: 2/3;
+  padding-top: .585em;
+}
+
+#home-nav{
+  text-align: center;
+  }
+
+#home-nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+#home-nav a {
+  display: block;
+  text-decoration: none;
+  background: transparent;
+  color: #fff;
+  padding-left: 0.278em; /* 5px/18px = 0.278em */
+  padding-right: 0.278em; /* 5px/18px = 0.278em */
+  border: 0.056em solid #fff; /* 1px/18px = 0.056em */
+  text-align: center;
+  display: inline-block;
+
+
+}
    #header {
     grid-row: 4 / 5;
     grid-column: 4 / 5;
@@ -108,6 +151,8 @@ display: block;
   grid-column: 1 / 2;
   text-align: center;
   font-size: 0.778em; /*14px/18px = o.778em*/
+  display:flex;
+  align-items: center;
 }
  #content {
   grid-row: 4 / 5;
@@ -121,7 +166,7 @@ display: block;
    grid-column: 1 / 2;
    text-align: center;
    font-size: 0.778em; /*14px/18px = o.778em*/
-
+  padding-top: 25em;
 }
   #home {
    display: grid;
