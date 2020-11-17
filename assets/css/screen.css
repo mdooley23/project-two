@@ -12,40 +12,52 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   https://www.modularscale.com/?18&px&1.33
 */
 /* Base Styles */
+
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif,monospace;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.44em; /* 26px / 18px (144%) = 1.44em */
   padding: 1.5625em 0.9615384615384616em 1.5625em 0.9615384615384616em; /*TRBL*/
   background-image: linear-gradient(to bottom right, orange, red, maroon); /*gradient background*/
-  color: #EEE;
+  color: #FFFFFF;
 }
-/*body {
-  margin: 1em; derive from line height
+
+body {
+  margin: 1em; /* derive from line height */
   padding: 1em;
-  background-color: #A9A9A9; color: white;
-}*/
+  text-align: horizontal;
+  }
+
 h1 {
-  font-size: 1.777778em; /* Two steps up modular scale: 32px / 18px = 1.777778em */
-  line-height: 1.625em; /* 52px (twice the baseline) / 32px (modular scale) = 1.625em */
-  color:white;
+  font-weight: 600;
+  font-size: 2.441em; /* 43.945px/18px = 2.441em */
+  line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
+  padding-top: 0.138em;
+  padding-bottom: 0.138em;
+  color: #FFFFFF;
 }
+
 h2 {
-  padding-top: 1em;
-  color:white;
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: 1.778em;
+  padding-top: 0.138em;
+  color:#FFFFFF;
 }
 h3 {
   padding-top: 1em;
-  color:white;
+  font-size: 1.125em;
+  line-height: 1.778em;
+  color: #FFFFFF;
 }
 
 figcaption {
-  font-size: 0.5625em; /* Two steps down the modular scale: 10.125px / 18px = 0.5625em */
-  color:white;
+  font-size: 1em; /* Two steps down the modular scale: 10.125px / 18px = 0.5625em */
+  color: #FFFFFF;
 }
 
 p {
-  color:white;
+  color: #FFFFFF;
   text-indent: 1em;
   padding-bottom: 1em;
 }
@@ -58,9 +70,76 @@ ul {
 
 li {
   padding-bottom: 0.9615384615384616em;
-  color:white;
+  color: #FFFFFF;
 }
+
 img {
   display: block;
-  max-width: 75%;
+  min-width: 50%;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+details {
+  padding-top: 1.389em; /* 25px/18px = 1.389em*/
+  padding-bottom: 1.389em; /* 25px/18px = 1.389em*/
+}
+
+#navbar {
+display: block;
+  grid-row: 5;
+  grid-column: 1 / 2;
+  text-align: center;
+  display: horizontal;
+  flex-direction: horizontal;
+}
+
+   #header {
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
+    background-size: top;
+    background-position-y: center;
+    flex-flow: wrap;
+    flex-direction: column-reverse;
+  }
+#home-header-caption {
+  grid-row: 8;
+  grid-column: 1 / 2;
+  text-align: center;
+  font-size: 0.778em; /*14px/18px = o.778em*/
+}
+ #content {
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+  text-align: center;
+  font-size: 0.778em; /*14px/18px = o.778em*/
+}
+
+ #footer {
+   grid-row: 9;
+   grid-column: 1 / 2;
+   text-align: center;
+   font-size: 0.778em; /*14px/18px = o.778em*/
+
+}
+  #home {
+   display: grid;
+   grid-template-rows: 1.389em 11.111em 1.389em 9.722em 1.389em 2.778em 1.389em 1.389em; /* converted 18px to em */
+   grid-template-columns:1.389em 11.111em 1.389em 9.722em 1.389em 2.778em 1.389em 1.389em;
+   text-align: center;
+   font-size: 0.778em; /*14px/18px = o.778em*/
+}
+
+
+#hobbies-img {
+  max-height: 22.222em; /* 400px/18px = 22.222em */
+  height: 100%;
+  width: auto;
+  border-radius: 0.833em; /* 15px/18px = 0.833em */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
