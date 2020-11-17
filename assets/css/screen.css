@@ -76,6 +76,7 @@ li {
 img {
   display: block;
   min-width: 50%;
+  width: 60%;
   padding-right: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -88,7 +89,7 @@ details {
 
 #navbar {
 display: block;
-  grid-row: 5;
+  grid-row: 9;
   grid-column: 1 / 2;
   text-align: center;
   display: horizontal;
@@ -99,7 +100,6 @@ display: block;
     grid-row: 4 / 5;
     grid-column: 4 / 5;
     background-size: top;
-    background-position-y: center;
     flex-flow: wrap;
     flex-direction: column-reverse;
   }
