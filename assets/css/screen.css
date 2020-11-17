@@ -35,7 +35,7 @@ h1 {
   font-size: 2.441em; /* 43.945px/18px = 2.441em */
   line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
   padding-top: 0.138em;
-  padding-bottom: 0.138em;
+  padding-bottom: 1em;
   color: #FFFFFF;
   text-align: center;
 }
