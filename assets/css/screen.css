@@ -27,7 +27,6 @@ html {
 body {
   margin: 1em; /* derive from line height */
   padding: 1em;
-  text-align: horizontal;
   }
 
 h1 {
@@ -160,7 +159,6 @@ details {
    #header {
     grid-row: 4 / 5;
     grid-column: 4 / 5;
-    background-size: top;
     flex-flow: wrap;
     flex-direction: column-reverse;
   }
