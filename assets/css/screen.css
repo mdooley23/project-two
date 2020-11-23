@@ -70,6 +70,14 @@ h3 {
    line-height: 1.778em;
    color: #FFFFFF;
 }
+h4 {
+  font-weight:300;
+  font-size: 1.778em;
+  line-height: 1em;
+  padding-top:  0.138em;
+  color:#FFFFFF;
+  text-align:left;
+}
 
 figcaption {
    font-size: 1em; /* Two steps down the modular scale: 10.125px / 18px = 0.5625em */
