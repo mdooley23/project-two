@@ -106,7 +106,7 @@ li {
 img {
    display: block;
    min-width: 30%;
-   width: 75%;
+   width: 50%;
    padding-right: 1em;
    padding-top: 1em;
    padding-bottom: 1em;
@@ -139,7 +139,7 @@ details {
   }
 
 #home-nav a:hover {
-  background-color: #fff;
+  background-color: #ff63;
   color: #333;
 }
 
@@ -163,7 +163,7 @@ details {
   flex-direction: column-reverse;
   }
 #home-header-caption {
-  grid-row: 8;
+  grid-row: 1 / 2;
   grid-column: 1 / 2;
   text-align: center;
   font-size: 0.778em; /*14px/18px = 0.778em*/
