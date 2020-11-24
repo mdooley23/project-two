@@ -157,7 +157,10 @@ img {
    padding-top: 1em;
    padding-bottom: 1em;
 }
+#img-1{
+  display: flex;
 
+}
 #center{
   display: block;
   margin-left: auto;
