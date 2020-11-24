@@ -30,7 +30,7 @@ body {
   }
 
 h1 {
-   font-weight: 600;
+   font-weight: 500;
    font-size: 2.441em; /* 43.945px/18px = 2.441em */
    line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
    padding-top: 0.138em;
@@ -47,7 +47,7 @@ h1 {
 }
 
 #h1-l {
-   font-weight: 700;
+   font-weight: 600;
    font-size: 2.441em; /* 43.945px/18px = 2.441em */
    line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
    padding-top: 0.138em;
@@ -73,7 +73,7 @@ h3 {
 h4 {
   font-weight:300;
   font-size: 1.778em;
-  line-height: 1em;
+  line-height: 0.567em;
   padding-top:  0.138em;
   color:#FFFFFF;
   text-align:left;
