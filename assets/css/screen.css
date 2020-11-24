@@ -137,10 +137,18 @@ details {
 }
 
 #home-nav-container{
-  grid-row:2/3;
-  grid-column: 2/3;
+  display: block;
+  text-decoration: none;
+  background: transparent;
+  grid-row:2 / 3;
+  grid-column: 2 / 3;
   padding-top: 0.586em; /* 10.55/18px= 0.586 */
-}
+  padding-left: 0.278em; /* 5px/18px = 0.278em */
+  padding-right: 0.278em; /* 5px/18px = 0.278em */
+  background-color: #ff6347;
+  display: grid;
+  text-align: center;
+  }
 
 #home-nav{
   text-align: center;
