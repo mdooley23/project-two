@@ -81,7 +81,7 @@ h2 {
 
 h3 {
    font-weight: 600;
-   font-size: 1.125em;
+   font-size: 1.105em;
    line-height: 1.778em;
    padding-top: 0.138em;
    color:#FFFFFF;
@@ -89,9 +89,10 @@ h3 {
 }
 
 h4 {
-   padding-top: 1em;
-   font-size: 1.125em;
-   line-height: 1.778em;
+   font-weight: 500;
+   padding-top: 0.138em;
+   font-size: 2em;
+   line-height: 2em;
    color: #FFFFFF;
    text-align: center;
 }
@@ -118,8 +119,9 @@ p {
 #footer p {
   display: block;
   text-decoration: none;
+padding-top: 0.138em;
   background: transparent;
-  background-color: #ff6347;
+  background-color: #8B0000;
   display: grid;
   text-align: center;
 }
@@ -182,7 +184,7 @@ details {
   padding-top: 0.586em; /* 10.55/18px= 0.586 */
   padding-left: 0.278em; /* 5px/18px = 0.278em */
   padding-right: 0.278em; /* 5px/18px = 0.278em */
-  background-color: #ff6347;
+  background-color: #ff8142;
   display: grid;
   text-align: center;
 
@@ -190,6 +192,7 @@ details {
 
 #home-nav{
   text-align: center;
+  justify-content: space-evenly;
   }
 
 #home-nav a:hover {
