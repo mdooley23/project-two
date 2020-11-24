@@ -38,7 +38,13 @@ h1 {
    color: #FFFFFF;
    text-align: center;
 }
-
+#h1-l  {
+  display: block;
+  text-decoration: none;
+  background: transparent;
+  background-color: #ff6347;
+  text-align: center;
+}
 .container{
    display: flex;
    flex-direction: row;
@@ -47,6 +53,11 @@ h1 {
 }
 
 #h1-l {
+   display: block;
+   text-decoration: none;
+   background: transparent;
+   background-color: #ff6347;
+   text-align: center;
    font-weight: 600;
    font-size: 2.441em; /* 43.945px/18px = 2.441em */
    line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
@@ -57,20 +68,30 @@ h1 {
 }
 
 h2 {
+   font-weight: 500;
+   font-size: 2.441em; /* 43.945px/18px = 2.441em */
+   line-height: 1.138em; /* 31.25px/43.945px = 1.138em*/
+   padding-top: 0.138em;
+   padding-bottom: 1em;
+   color: #FFFFFF;
+   text-align: center;
+}
+
+h3 {
    font-weight: 600;
    font-size: 1.125em;
    line-height: 1.778em;
    padding-top: 0.138em;
    color:#FFFFFF;
-   text-align: center;
+   text-align: left;
 }
-h3 {
+h4 {
    padding-top: 1em;
    font-size: 1.125em;
    line-height: 1.778em;
    color: #FFFFFF;
 }
-h4 {
+h5 {
   font-weight:300;
   font-size: 1.778em;
   line-height: 0.567em;
@@ -88,6 +109,14 @@ p {
    color: #FFFFFF;
    text-indent: 1em;
    padding-bottom: 1em;
+}
+#footer p {
+  display: block;
+  text-decoration: none;
+  background: transparent;
+  background-color: #ff6347;
+  display: grid;
+  text-align: center;
 }
 
 ul {
@@ -148,6 +177,7 @@ details {
   background-color: #ff6347;
   display: grid;
   text-align: center;
+
   }
 
 #home-nav{
@@ -155,6 +185,7 @@ details {
   }
 
 #home-nav a:hover {
+  justify-content: space-evenly;
   background-color: #ff63;
   color: #333;
 }
